@@ -1,15 +1,16 @@
 :root {
     --header: rgb(47, 45, 193);
-    --text: rgb(172, 56, 204);
-    --navlink-color: rgb(234, 0, 255);
+    --text: rgb(47, 45, 193);
+    --navlink-color: skyblue;
 }
 
-.background {
+/* .background {
     height: 100px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/background.jpg");
-}
+} */
+
 body {
     height: 100%;
     width: 100%;
@@ -17,19 +18,25 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
+/* p {
+    float: right;
+} */
 
 h1 {
     font-size: 200%;
 }
 
-h2{
-    font-size: 150%;
+h2 {
+    font-size: 180%;
+    float: left;
+    margin: 90px 50px;
 }
 
 nav ul {
@@ -37,32 +44,32 @@ nav ul {
     justify-content: center;
     min-width: 500px;
     margin-left: 15px;
-  }
-  
-  nav a {
+}
+
+nav a {
     background-color: unset;
     color: var(--text);
     font-weight: bold;
     text-decoration: none;
-  }
+}
 
-  nav a:hover {
+nav a:hover {
     color: var(--navlink-color);
-  }
+}
 
-  header {
+header {
     font-size: 32px;
     color: var(--text);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--header);
     height: 100px;
 }
+
 nav li {
     display: inline-block;
     margin-right: 20px;
-    color: black;
+    color: var(--navlink-color);
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -70,23 +77,29 @@ nav li {
 .section1 {
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0;
     height: 200px;
-    width: 100%;
+    width: 95%;
+    margin-bottom: 2%;
+    /* display: inline-block; */
+
 }
 
-.section img {
+.section1 img {
     height: 100px;
-    width: 100px;
-    flex-wrap: wrap;
+    width: 100%;
+    max-height: 200px;
+    margin-right: 25px;
+
 }
 
 .section2 {
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0;
     height: 200px;
-    width: 100%;
+    width: 95%;
+    margin-bottom: 2%;
 }
 
 .section2 img {
@@ -98,9 +111,9 @@ nav li {
 .section3 {
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 0;
     height: 200px;
-    width: 100%;
+    width: 95%;
 }
 
 .section3 img {
@@ -111,4 +124,28 @@ nav li {
 
 #horiseon:hover {
     opacity: .5;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.card img {
+    width: 100%;
+}
+
+@media and (max-width: 992px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
 }
