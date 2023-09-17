@@ -1,5 +1,4 @@
 :root {
-    --header: rgb(47, 45, 193);
     --text: rgb(47, 45, 193);
     --navlink-color: skyblue;
 }
@@ -25,9 +24,12 @@ html {
     scroll-behavior: smooth;
 }
 
-/* p {
-    float: right;
-} */
+p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 200px;
+}
 
 h1 {
     font-size: 200%;
@@ -75,9 +77,11 @@ nav li {
 }
 
 .section1 {
+    display: flex;
+    align-items: ;
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 0;
+    margin-top: 20px;
     height: 200px;
     width: 95%;
     margin-bottom: 2%;
@@ -86,17 +90,16 @@ nav li {
 }
 
 .section1 img {
-    height: 100px;
-    width: 100%;
+    height: 100%;
+    width: 10%;
     max-height: 200px;
     margin-right: 25px;
-
 }
 
 .section2 {
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 0;
+    margin-top: 20px;
     height: 200px;
     width: 95%;
     margin-bottom: 2%;
@@ -111,7 +114,7 @@ nav li {
 .section3 {
     border: 3px;
     border-style: dashed;
-    margin: 5px 0 0 0;
+    margin-top: 20px;
     height: 200px;
     width: 95%;
 }
@@ -149,3 +152,4 @@ nav li {
         width: 100%;
     }
 }
+
