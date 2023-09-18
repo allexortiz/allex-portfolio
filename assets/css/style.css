@@ -159,7 +159,7 @@ nav li {
 
 .section3 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     border: 3px dashed black;
     margin-top: 20px;
     height: 200px;
@@ -263,14 +263,14 @@ nav li {
 
 
     .work-parent {
-        display: flex;
-        align-items: center;
+        /* display: flex;
+        align-items: flex-end; */
         width: 100%;
         margin-right: 0;
     }
 
     #prework {
-        width: 85vw;
+        width: 74vw;
         background-size: contain;
     }
 
@@ -287,11 +287,15 @@ nav li {
     }
 
     .section3 h2 {
+        display: flex;
+        justify-content: center;
         margin: 10px;
         box-sizing: border-box;
     }
 
     .contact-info {
+        display: flex;
+        justify-content: center;
         margin-right: unset;
     }
 
