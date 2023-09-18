@@ -178,8 +178,8 @@ nav li {
     display: flex;
     /* border: 3px solid black; */
     margin-right: 450px;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 125%;
@@ -209,9 +209,97 @@ nav li {
 
 
 
-/* @media and (max-width: 992px) {
-    
-} */
+@media screen and (max-width: 992px) {
+    h1 {
+        margin-top: 20px;
+    }
+
+    .section1 {
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: auto;
+        overflow: auto;
+        max-width: 95vw;
+
+    }
+
+    .section1 h2 {
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .section1 img {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .section1 p {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 75vw;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        border: 3px dashed black;
+        margin-bottom: 2%;
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px 5px grey;
+        height: auto;
+        width: auto;
+        max-width: 95vw;
+    }
+
+    .section2 h2 {
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+
+    .work-parent {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #prework {
+        width: 85vw;
+        background-size: contain;
+    }
+
+    #horieson {
+        width: 85vw;
+        background-size: contain;
+    }
+
+    .section3 {
+        display: flex;
+        align-items: center;
+        height: unset;
+        max-width: 95vw;
+    }
+
+    .section3 h2 {
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .contact-info {
+        margin-right: unset;
+    }
+
+    .section3 ul li {
+        line-height: 2;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
