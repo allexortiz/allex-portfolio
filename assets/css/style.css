@@ -40,7 +40,6 @@ h1 {
 
 h2 {
     font-size: 180%;
-    /* float: left; */
     margin: 90px 50px;
 }
 
@@ -98,7 +97,6 @@ nav li {
 .section1 img {
     height: 90%;
     width: 10%;
-    /* max-height: 200px; */
     margin-right: 25px;
     margin-top: 10px;
     border-radius: 15px;
@@ -110,7 +108,6 @@ nav li {
     align-items: center;
     border: 3px dashed black;
     margin-top: 20px;
-    /* height: 400px; */
     width: 95%;
     margin-bottom: 2%;
     margin-left: 30px;
@@ -162,12 +159,10 @@ nav li {
 
 .section3 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     border: 3px dashed black;
     margin-top: 20px;
-    /* height: 200px; */
+    height: 200px;
     width: 95%;
     margin-left: 30px;
     border-radius: 15px;
@@ -182,7 +177,7 @@ nav li {
 .contact-info {
     display: flex;
     /* border: 3px solid black; */
-    /* margin-right: 450px; */
+    margin-right: 450px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -211,6 +206,7 @@ nav li {
 #spotify:hover {
     opacity: .5;
 }
+
 
 
 /* @media and (max-width: 992px) {
@@ -267,7 +263,6 @@ nav li {
     .section2 h2 {
         margin: 10px;
         box-sizing: border-box;
-        margin-right: 50px;
     }
 
 
@@ -293,6 +288,16 @@ nav li {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: unset;
+    }
+
+    .section3 h2 {
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .contact-info {
+        margin-right: unset;
     }
 
     .section3 ul li {
