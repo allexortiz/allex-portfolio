@@ -91,7 +91,7 @@ nav li {
 .section1 img {
     height: 90%;
     width: 10%;
-    max-height: 200px;
+    /* max-height: 200px; */
     margin-right: 25px;
     margin-top: 10px;
     border-radius: 15px;
@@ -103,7 +103,7 @@ nav li {
     align-items: center;
     border: 3px dashed black;
     margin-top: 20px;
-    height: 400px;
+    /* height: 400px; */
     width: 95%;
     margin-bottom: 2%;
     margin-left: 30px;
@@ -142,8 +142,11 @@ nav li {
     width: 630px;
 }
 
-#example3 {
-    background-color: black;
+#spotify {
+    background-image: url("../images/us.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #about-me{
@@ -196,11 +199,49 @@ nav li {
     opacity: .5;
 }
 
-
-@media and (max-width: 992px) {
-    
+#spotify:hover {
+    opacity: .5;
 }
+
+
+/* @media and (max-width: 992px) {
+    
+} */
 
 @media screen and (max-width: 768px) {
 
+    .section1 {
+        /* display: flex;
+        flex-flow: column wrap;
+        align-items: center; */
+        width: 100;
+        border: 3px dashed black;
+
+    }
+
+    .sction1 img {
+        display: flex;
+        width: 100;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px dashed black;
+        margin-bottom: 2%;
+        border-radius: 15px;
+        box-shadow: 10px 10px 20px 5px grey;
+    }
+
+    .work-parent {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #prework {
+        width: 100%;
+    }
+    
 }
