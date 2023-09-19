@@ -159,7 +159,8 @@ nav li {
 
 .section3 {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: center;
     border: 3px dashed black;
     margin-top: 20px;
     height: 200px;
@@ -288,7 +289,6 @@ nav li {
 
     .section3 h2 {
         display: flex;
-        justify-content: center;
         margin: 10px;
         box-sizing: border-box;
     }
