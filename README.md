@@ -1,11 +1,11 @@
 # allex-portfolio
 
-User Story
+## User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-Acceptance Criteria
+## Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -20,3 +20,14 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Description
+You can use this site to see my work that I have done since starting coding bootcamp. I have linked two projects that I've worked on so far. There are clickable photos that will redirect you to those projects as well as a clickable links in the navbar that will redirct you to that section in the website.
+
+## Images
+See below images of the live website!
+![Alt text](./assets/images/image.png)
+![Alt text](./assets/images/image-1.png)
+
+## Links
+website: https://allexortiz.github.io/allex-portfolio/
+github: https://github.com/allexortiz/allex-portfolio
